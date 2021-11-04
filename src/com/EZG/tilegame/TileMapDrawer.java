@@ -77,7 +77,7 @@ public class TileMapDrawer
         Draws the specified TileMap.
     */
     public void draw(Graphics2D g, TileMap map);
-        int screenWidth, int screenHeight
+        int screenWidth, int screenHeight;
     {
         Sprite player = map.getPlayer();
         int mapWidth = tilesToPixels(map.getWidth());

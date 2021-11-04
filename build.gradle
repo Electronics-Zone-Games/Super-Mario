@@ -14,11 +14,6 @@ repositories{
     maven{url "https://jitpack.io"}
 }
 
-dependencies{
-    annotationProcessor 'com.github.Anuken:jabel:0.4.0'
-    implementation "com.github.Anuken.Mindustry:core:$pVer"
-}
-
 ext{
     sdkRoot = System.getenv("ANDROID_HOME")
     sdkVersion = '30'
